@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" style="@style/FirebaseUI.WrapperStyle">
+        <android.support.design.widget.TextInputLayout android:id="@id/email_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fui_field_padding_vert" android:transitionName="email_field" android:transitionGroup="true" app:errorEnabled="true" style="@style/FirebaseUI.TextInputLayout.EmailField">
+            <android.support.design.widget.TextInputEditText android:id="@id/email" style="@style/FirebaseUI.TextInputEditText.EmailField" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:id="@id/name_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fui_field_padding_vert" app:errorEnabled="true" style="@style/FirebaseUI.TextInputLayout.NameField">
+            <android.support.design.widget.TextInputEditText android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FirebaseUI.TextInputEditText.NameField" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:id="@id/password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fui_field_padding_vert" app:errorEnabled="true" app:passwordToggleEnabled="true" style="@style/FirebaseUI.TextInputLayout.PasswordField">
+            <android.support.design.widget.TextInputEditText android:id="@id/password" style="@style/FirebaseUI.TextInputEditText.PasswordField" />
+        </android.support.design.widget.TextInputLayout>
+        <TextView android:id="@id/create_account_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fui_field_padding_vert" android:textIsSelectable="false" style="@style/FirebaseUI.Text.BodyText" />
+        <Button android:id="@id/button_create" android:text="@string/fui_button_text_save" style="@style/FirebaseUI.Button" />
+    </LinearLayout>
+</ScrollView>

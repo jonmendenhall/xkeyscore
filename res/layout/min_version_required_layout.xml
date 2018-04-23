@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/min_version_required_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/hq_blue" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/bg_pattern_image_view" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="false" android:cropToPadding="false" app:srcCompat="@drawable/bg_pattern" />
+    <android.support.constraint.ConstraintLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/grid_3">
+        <RelativeLayout android:id="@id/min_version_logo" android:layout_width="@dimen/grid_16" android:layout_height="@dimen/grid_16" app:layout_constraintBottom_toTopOf="@id/min_version_title_text_view" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:background="@drawable/gradient_circular" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:background="@drawable/ic_hq_appupdate" android:layout_width="@dimen/grid_15" android:layout_height="@dimen/grid_15" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="28.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/min_version_title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_3" android:text="@string/An_update_to_the_latest_version_is_required" android:fontFamily="@font/circularstdbold" app:layout_constraintBottom_toTopOf="@id/min_version_body_text_view" app:layout_constraintTop_toBottomOf="@id/min_version_logo" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/text_light_purple" android:gravity="center" android:id="@id/min_version_body_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_4" android:text="@string/This_version_is_no_longer_supported" android:fontFamily="@font/circularstdbook" app:layout_constraintBottom_toTopOf="@id/min_version_required_button" app:layout_constraintTop_toBottomOf="@id/min_version_title_text_view" />
+        <Button android:layout_gravity="center" android:id="@id/min_version_required_button" android:layout_marginBottom="@dimen/grid_3" android:text="@string/Update_in_Play_Store" android:backgroundTint="@color/hq_red" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/ButtonRound" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/add_friends_section_divider" android:background="@color/light_grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/grid_2" />
+    <TextView android:textSize="16.0sp" android:id="@id/add_friends_section_text_view" android:paddingTop="@dimen/grid_2" android:paddingBottom="@dimen/grid_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/circularstdbold" />
+</LinearLayout>

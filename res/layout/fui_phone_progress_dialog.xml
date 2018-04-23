@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:max="10000" style="@style/Base.Widget.AppCompat.ProgressBar" />
+    <ImageView android:id="@id/progress_success_imaage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:max="10000" android:contentDescription="@string/fui_done" app:srcCompat="@drawable/fui_done_check_mark" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/progress_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/grid_2" android:paddingEnd="@dimen/grid_2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@id/chat_avatar" android:layout_width="@dimen/grid_3" android:layout_height="@dimen/grid_3" android:src="@drawable/default_avatar" />
+    <ImageView android:id="@id/chat_spam_avatar" android:background="@drawable/ic_circle_turquoise" android:visibility="gone" android:layout_width="@dimen/grid_2" android:layout_height="@dimen/grid_2" android:layout_marginStart="@dimen/grid_1" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/text_chat_username" android:id="@id/chat_message_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/circularstdbook" android:layout_marginStart="@dimen/grid_1" />
+</LinearLayout>

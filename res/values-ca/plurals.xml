@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">La contrasenya no és prou segura. Utilitza com a mínim %1$d caràcters i combina lletres i números.</item>
+        <item quantity="one">La contrasenya no és prou segura. Utilitza com a mínim %1$d caràcter i combina lletres i números.</item>
+    </plurals>
+</resources>

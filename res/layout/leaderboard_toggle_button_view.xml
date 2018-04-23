@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/leaderboard_toggle_container" android:layout_width="fill_parent" android:layout_height="@dimen/grid_5" android:layout_margin="@dimen/grid_2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/this_week_button" android:background="@drawable/button_leaderboard_mode" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/This_week" android:layout_weight="1.0" android:fontFamily="@font/circularstdmedium" android:layout_marginEnd="@dimen/grid_1_half" style="@style/ButtonRound" />
+    <Button android:id="@id/all_time_button" android:background="@drawable/button_leaderboard_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/All_time" android:layout_weight="1.0" android:fontFamily="@font/circularstdmedium" android:layout_marginStart="@dimen/grid_1_half" style="@style/ButtonRound" />
+</LinearLayout>

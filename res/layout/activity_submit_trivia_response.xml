@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/grid_3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/ic_question_submitted" android:layout_width="@dimen/grid_12" android:layout_height="@dimen/grid_12" />
+    <TextView android:textSize="28.0sp" android:textColor="@color/text_primary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_5" android:text="@string/trivia_response_title" android:fontFamily="@font/circularstdbold" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/mid_grey" android:gravity="center" android:id="@id/dontBeLate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_2" android:text="@string/trivia_response_paragraph" />
+    <Button android:textColor="@color/mid_grey" android:background="@drawable/button_round_light_grey_border" android:layout_marginTop="@dimen/grid_7" android:text="@string/submit_another" android:onClick="submitTrivia" style="@style/ButtonRound" />
+</LinearLayout>

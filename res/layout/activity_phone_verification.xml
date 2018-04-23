@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:background="@color/hq_blue" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bg_pattern_image_view" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="false" android:cropToPadding="false" app:srcCompat="@drawable/bg_pattern" />
+    <com.intermedia.login.NoTouchViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/phone_verification_first_step" />
+        <include layout="@layout/phone_verification_second_step" />
+    </com.intermedia.login.NoTouchViewPager>
+</FrameLayout>

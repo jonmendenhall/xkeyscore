@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">Geslo ni dovolj zapleteno. Uporabite vsaj %1$d znakov in kombinacijo črk ter številk.</item>
+        <item quantity="one">Geslo ni dovolj zapleteno. Uporabite vsaj %1$d znak in kombinacijo črk ter številk.</item>
+        <item quantity="two">Geslo ni dovolj zapleteno. Uporabite vsaj %1$d znaka in kombinacijo črk ter številk.</item>
+        <item quantity="few">Geslo ni dovolj zapleteno. Uporabite vsaj %1$d znake in kombinacijo črk ter številk.</item>
+    </plurals>
+</resources>

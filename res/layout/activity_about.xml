@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/footer" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:id="@id/how_to_play_label" android:text="@string/how_to_play" android:onClick="howToPlay" android:drawableStart="@drawable/about_play" style="@style/AboutSectionTitleTextStyle" />
+        <TextView android:id="@id/faq_label" android:text="@string/faq" android:onClick="faq" android:drawableStart="@drawable/about_faq" style="@style/AboutSectionTitleTextStyle" />
+        <TextView android:id="@id/submit_trivia_label" android:text="@string/submit_trivia" android:onClick="submitTrivia" android:drawableStart="@drawable/about_submit" style="@style/AboutSectionTitleTextStyle" />
+        <TextView android:id="@id/get_help_label" android:text="@string/get_help" android:onClick="getHelp" android:drawableStart="@drawable/about_gethelp" style="@style/AboutSectionTitleTextStyle" />
+        <TextView android:id="@id/rate_us_label" android:visibility="visible" android:text="@string/rate_us" android:onClick="rateUs" android:drawableStart="@drawable/about_rate" style="@style/AboutSectionTitleTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/footer" android:paddingBottom="@dimen/grid_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_2">
+            <Button android:id="@id/buttonTwit" android:background="@drawable/twitter_icon" android:layout_width="@dimen/grid_6" android:layout_height="@dimen/grid_6" android:layout_weight="1.0" android:onClick="submitTwitter" android:layout_marginEnd="@dimen/grid_2" />
+            <Button android:id="@id/buttonInst" android:background="@drawable/instagram_icon" android:layout_width="@dimen/grid_6" android:layout_height="@dimen/grid_6" android:layout_weight="1.0" android:onClick="submitInstagram" />
+            <Button android:id="@id/buttonFB" android:background="@drawable/facebook_icon" android:layout_width="@dimen/grid_6" android:layout_height="@dimen/grid_6" android:layout_weight="1.0" android:onClick="submitFacebook" android:layout_marginStart="@dimen/grid_2" app:layout_anchor="@id/container" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@color/mid_grey" android:gravity="center" android:id="@id/terms1" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/terms" android:layout_weight="1.0" android:onClick="terms" android:fontFamily="@font/circularstdbook" android:layout_marginEnd="@dimen/grid_2" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/mid_grey" android:gravity="center" android:id="@id/privacy" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy" android:layout_weight="1.0" android:onClick="privacy" android:fontFamily="@font/circularstdbook" android:layout_marginEnd="@dimen/grid_2" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/mid_grey" android:gravity="center" android:id="@id/rules" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rules" android:layout_weight="1.0" android:onClick="rules" android:fontFamily="@font/circularstdbook" />
+        </LinearLayout>
+        <TextView android:textColor="@color/mid_grey" android:gravity="center_horizontal" android:id="@id/about_version_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/grid_2" android:fontFamily="@font/circularstdbook" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

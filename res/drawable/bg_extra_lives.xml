@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="300.0dip" android:width="300.0dip" android:viewportWidth="300.0" android:viewportHeight="300.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fff5f5f9" android:pathData="M150,150m-72,0a72,72 0,1 1,144 0a72,72 0,1 1,-144 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff6cd7d6" android:pathData="M261,157m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff6cd7d6" android:pathData="M51,63m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#fffed430" android:pathData="M23,129m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff6c6ed7" android:pathData="M63.79,242.18m5.9,6.79a9,9 126.46,1 1,-11.81 -13.58a9,9 126.46,1 1,11.81 13.58" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M58.53,241.08C58.46,241.73 58.66,242.38 59.1,242.88C59.53,243.37 60.15,243.67 60.8,243.69L61.27,243.71L61.23,244.18C61.15,244.83 61.36,245.48 61.79,245.98C62.23,246.48 62.84,246.77 63.5,246.79C64.9,246.83 66.09,245.8 66.24,244.4L66.68,239.79C66.7,239.57 66.63,239.35 66.48,239.18C66.34,239.01 66.13,238.91 65.9,238.9L61.28,238.69C59.87,238.65 58.68,239.68 58.53,241.08Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#fffed430" android:pathData="M243.08,53.42m-4.77,-5.12a7,7 0,1 1,9.55 10.24a7,7 0,1 1,-9.55 -10.24" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M247.09,54.29C247.13,53.71 246.92,53.14 246.52,52.71C246.12,52.29 245.56,52.04 244.99,52.04L244.57,52.03L244.6,51.62C244.63,51.04 244.43,50.47 244.03,50.04C243.63,49.61 243.07,49.37 242.5,49.37C241.26,49.36 240.25,50.3 240.17,51.54L239.96,55.62C239.95,55.81 240.02,56.01 240.15,56.15C240.29,56.3 240.48,56.38 240.67,56.38L244.76,56.46C246,56.46 247,55.52 247.09,54.29Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

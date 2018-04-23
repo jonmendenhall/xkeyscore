@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">密碼安全強度不足。請使用至少 %1$d 個字元並混用字母和數字</item>
+        <item quantity="one">密碼安全強度不足。請使用至少 %1$d 個字元並混用字母和數字</item>
+    </plurals>
+</resources>

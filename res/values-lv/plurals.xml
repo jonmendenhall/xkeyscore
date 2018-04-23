@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">Parole nav pietiekami droša. Izmantojiet vismaz %1$d rakstzīmes un burtu un ciparu kombināciju</item>
+        <item quantity="zero">Parole nav pietiekami droša. Izmantojiet vismaz %1$d rakstzīmes un burtu un ciparu kombināciju</item>
+        <item quantity="one">Parole nav pietiekami droša. Izmantojiet vismaz %1$d rakstzīmi un burtu un ciparu kombināciju</item>
+    </plurals>
+</resources>

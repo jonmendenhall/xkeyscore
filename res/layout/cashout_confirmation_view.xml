@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/cashout_confirmation_layout" android:background="@drawable/rounded_rect" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/grid_2" android:layout_marginTop="@dimen/grid_3" android:layout_marginRight="@dimen/grid_2" android:layout_marginBottom="@dimen/grid_3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="end" android:id="@id/cashout_close_view" android:background="?android:selectableItemBackgroundBorderless" android:focusable="true" android:clickable="true" android:layout_width="@dimen/touch_target_min_width_height" android:layout_height="@dimen/touch_target_min_width_height" android:layout_marginTop="@dimen/grid_1" android:layout_marginEnd="@dimen/grid_1">
+        <ImageView android:layout_gravity="center" android:background="@android:drawable/ic_menu_close_clear_cancel" android:layout_width="@dimen/grid_3" android:layout_height="@dimen/grid_3" android:backgroundTint="@android:color/darker_gray" />
+    </FrameLayout>
+    <ImageView android:layout_width="@dimen/grid_10" android:layout_height="@dimen/grid_10" android:src="@drawable/ic_cashout_success" />
+    <TextView android:textSize="24.0sp" android:textColor="@color/text_primary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/grid_4" android:text="@string/Your_money_will_be_there" android:fontFamily="@font/circularstdbold" />
+    <Button android:textSize="18.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/cashout_done_button" android:background="@drawable/button_round" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_4" android:text="@string/Done" android:paddingStart="@dimen/grid_5" android:paddingEnd="@dimen/grid_5" android:backgroundTint="@color/hq_red" />
+</LinearLayout>

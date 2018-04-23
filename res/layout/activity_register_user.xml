@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/root" android:background="@color/hq_blue" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bg_pattern_image_view" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="false" android:cropToPadding="false" app:srcCompat="@drawable/bg_pattern" />
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/user_image" android:background="@drawable/ic_avatar_placeholder" android:layout_width="@dimen/user_avatar_width_height" android:layout_height="@dimen/user_avatar_width_height" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:onClick="imageChooser" />
+        <ImageView android:id="@id/upload_avatar_plus_image_view" android:background="@drawable/ic_upload_avatar" android:layout_width="@dimen/grid_4" android:layout_height="@dimen/grid_4" android:layout_alignEnd="@id/user_image" />
+        <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/grid_4" android:layout_below="@id/user_image" android:layout_alignParentStart="true">
+            <EditText android:textColorHint="@color/mid_grey" android:id="@id/username" android:background="@drawable/rounded_edittext" android:padding="@dimen/grid_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_4" android:hint="@string/Username" android:maxLines="1" android:maxLength="18" android:inputType="textFilter|textNoSuggestions" android:fontFamily="@font/circularstdbook" />
+            <EditText android:textColorHint="@color/mid_grey" android:id="@id/referral_code" android:background="@drawable/rounded_edittext" android:padding="@dimen/grid_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/Referral_code_optional" android:maxLines="1" android:inputType="textVisiblePassword|textNoSuggestions" android:fontFamily="@font/circularstdbook" />
+        </LinearLayout>
+    </RelativeLayout>
+    <android.support.v7.widget.Toolbar android:id="@id/activity_register_toolbar" style="@style/ToolbarDark">
+        <Button android:textSize="14.0sp" android:layout_gravity="end|center" android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="@dimen/grid_5" android:text="@string/Next" android:onClick="nextButtonClicked" android:layout_marginEnd="@dimen/grid_2" android:backgroundTint="@color/hq_red" style="@style/ButtonRound" />
+    </android.support.v7.widget.Toolbar>
+    <ProgressBar android:layout_gravity="bottom|center" android:id="@id/progress_bar" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/grid_3" style="?android:progressBarStyleLarge" />
+</android.support.design.widget.CoordinatorLayout>

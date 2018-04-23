@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">"Le mot de passe n'est pas assez sécurisé. Utilisez au moins %1$d caractères et une combinaison de chiffres et de lettres."</item>
+        <item quantity="one">"Le mot de passe n'est pas assez sécurisé. Utilisez au moins %1$d caractère et une combinaison de chiffres et de lettres."</item>
+    </plurals>
+</resources>

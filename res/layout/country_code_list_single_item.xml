@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/grid_1" android:paddingBottom="@dimen/grid_1" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/grid_2" android:paddingEnd="@dimen/grid_2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/text_primary" android:id="@id/country_emoji_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/circularstdbook" android:layout_marginEnd="@dimen/grid_1" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/text_primary" android:ellipsize="end" android:id="@id/country_name_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/circularstdbook" android:layout_marginEnd="@dimen/grid_1" android:layout_toStartOf="@id/country_code_text_view" android:layout_toEndOf="@id/country_emoji_text_view" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/text_primary" android:id="@id/country_code_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+</RelativeLayout>

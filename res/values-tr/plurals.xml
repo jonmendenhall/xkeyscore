@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">Şifre yeterince güçlü değil. En az %1$d karakter kullanın ve hem harf hem de rakam ekleyin</item>
+        <item quantity="one">Şifre yeterince güçlü değil. En az %1$d karakter kullanın ve hem harf hem de rakam ekleyin</item>
+    </plurals>
+</resources>

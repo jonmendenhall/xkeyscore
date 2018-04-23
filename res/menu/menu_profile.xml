@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/take_new_photo" android:title="@string/take_photo" />
+    <item android:id="@id/choose_from_photos" android:title="@string/choose_from_photos" />
+    <item android:id="@id/delete_avatar" android:title="@string/delete_avatar" />
+</menu>

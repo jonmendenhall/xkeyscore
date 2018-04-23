@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.firebase.ui.auth.util.ui.SupportVectorDrawablesButton android:id="@id/facebook_button" android:text="@string/fui_sign_in_with_facebook" style="@style/FirebaseUI.Button.AccountChooser.FacebookButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

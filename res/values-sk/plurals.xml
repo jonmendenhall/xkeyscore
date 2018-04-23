@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">Heslo nie je dostatočne silné. Použite aspoň %1$d znakov a kombináciu písmen a čísel</item>
+        <item quantity="one">Heslo nie je dostatočne silné. Použite aspoň %1$d znak a kombináciu písmen a čísel</item>
+        <item quantity="few">Heslo nie je dostatočne silné. Použite aspoň %1$d znaky a kombináciu písmen a čísel</item>
+        <item quantity="many">Heslo nie je dostatočne silné. Použite aspoň %1$d znaku a kombináciu písmen a čísel</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">Uw wachtwoord is niet sterk genoeg. Gebruik ten minste %1$d tekens en een combinatie van letters en cijfers.</item>
+        <item quantity="one">Uw wachtwoord is niet sterk genoeg. Gebruik ten minste %1$d teken en een combinatie van letters en cijfers.</item>
+    </plurals>
+</resources>

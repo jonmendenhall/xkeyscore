@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" style="@style/FirebaseUI.WrapperStyle">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fui_welcome_back_idp_header" style="@style/FirebaseUI.Text.Heading" />
+        <TextView android:id="@id/welcome_back_idp_prompt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/FirebaseUI.Text.BodyText" />
+        <Button android:id="@id/welcome_back_idp_button" android:text="@string/fui_sign_in_default" style="@style/FirebaseUI.Button" />
+    </LinearLayout>
+</ScrollView>

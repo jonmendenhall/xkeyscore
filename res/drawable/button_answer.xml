@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <shape>
+            <solid android:color="@color/light_grey" />
+            <corners android:radius="@dimen/rounded_button" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/light_grey" />
+            <corners android:radius="@dimen/rounded_button" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="@color/hq_purple" />
+            <corners android:radius="@dimen/rounded_button" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/hq_purple" />
+            <corners android:radius="@dimen/rounded_button" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+            <corners android:radius="@dimen/rounded_button" />
+            <stroke android:width="5.0px" android:color="@color/border_stroke" />
+        </shape>
+    </item>
+</selector>

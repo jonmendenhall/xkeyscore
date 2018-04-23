@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/rounded_button" />
+            <solid android:color="@color/white" />
+            <stroke android:width="2.5dip" android:color="@color/border_stroke" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <scale android:scaleWidth="100%">
+            <shape>
+                <corners android:radius="@dimen/rounded_button" />
+                <solid android:color="@color/correct_green" />
+            </shape>
+        </scale>
+    </item>
+</layer-list>

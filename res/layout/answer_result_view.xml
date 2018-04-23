@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/button_round_light_grey_border" android:clipChildren="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="@dimen/grid_7" android:layout_marginBottom="@dimen/grid_1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:id="@id/answer_result_progress_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminateOnly="false" />
+    <android.support.constraint.ConstraintLayout android:orientation="horizontal" android:id="@id/answer_result_constraint_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="@color/text_primary" android:gravity="center_vertical" android:id="@id/answer_result_text_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:fontFamily="@font/circularstdmedium" android:layout_marginStart="@dimen/grid_3" android:layout_marginEnd="@dimen/grid_1" app:autoSizeMaxTextSize="20.0sp" app:autoSizeMinTextSize="14.0sp" app:autoSizeTextType="uniform" app:layout_constraintEnd_toStartOf="@id/answer_result_count_text_view" app:layout_constraintStart_toStartOf="parent" />
+        <android.support.v7.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/mid_grey" android:gravity="end|center" android:id="@id/answer_result_count_text_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:fontFamily="@font/circularstdbook" android:layout_marginEnd="@dimen/grid_3" app:autoSizeMaxTextSize="14.0sp" app:autoSizeMinTextSize="10.0sp" app:autoSizeTextType="uniform" app:layout_constraintEnd_toEndOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>

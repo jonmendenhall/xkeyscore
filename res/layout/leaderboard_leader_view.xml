@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/leaderboard_leader_view" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/view_divider_horizontal_0_5" />
+    <RelativeLayout android:paddingTop="@dimen/grid_1" android:paddingBottom="@dimen/grid_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/grid_3" android:paddingEnd="@dimen/grid_2">
+        <TextView android:textColor="@color/mid_grey" android:id="@id/leaderboard_rank_text_view" android:layout_width="@dimen/grid_4" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/circularstdbook" android:layout_marginEnd="@dimen/grid_1" />
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/leaderboard_avatar_image_view" android:background="@drawable/default_avatar" android:layout_width="@dimen/grid_4" android:layout_height="@dimen/grid_4" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/grid_2" android:layout_toEndOf="@id/leaderboard_rank_text_view" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/leaderboard_username_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="@font/circularstdmedium" android:layout_marginEnd="@dimen/grid_2" android:layout_toStartOf="@id/leaderboard_balance_text_view" android:layout_toEndOf="@id/leaderboard_avatar_image_view" />
+        <TextView android:id="@id/leaderboard_balance_text_view" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/TextViewBalanceRounded" />
+    </RelativeLayout>
+</LinearLayout>

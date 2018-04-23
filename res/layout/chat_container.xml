@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" app:layout_constraintBottom_toTopOf="@id/chat_input">
+        <RelativeLayout android:gravity="bottom" android:id="@id/chat_button_container" android:layout_width="0.0dip" android:layout_height="150.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/chat_list_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="1.0">
+                <ImageView android:layout_gravity="top" android:background="@drawable/chat_gradient_top" android:layout_width="fill_parent" android:layout_height="@dimen/grid_4" />
+                <View android:background="@color/hq_blue_alpha_50" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/grid_4" />
+            </FrameLayout>
+            <android.support.v7.widget.RecyclerView android:id="@id/chat_list" android:layout_width="fill_parent" android:layout_height="@dimen/chat_list_height" android:layout_marginTop="@dimen/grid_2" android:requiresFadingEdge="vertical" />
+            <Button android:textColor="@color/white" android:id="@id/chat_count_button" android:background="@drawable/button_round" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/grid_4" android:layout_marginTop="@dimen/activity_horizontal_margin" android:layout_marginBottom="@dimen/grid_2" android:text="@string/chat_new_messages_start" android:layout_alignBottom="@id/chat_list" android:layout_centerHorizontal="true" android:textAllCaps="false" android:textAlignment="center" android:paddingStart="@dimen/grid_3" android:paddingEnd="@dimen/grid_3" android:backgroundTint="@color/hq_purple" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/chat_input" android:background="@color/hq_blue_alpha_50" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:alpha="0.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/button_round" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/grid_2" android:layout_marginRight="@dimen/grid_2" android:layout_marginBottom="@dimen/grid_1" android:backgroundTint="@color/white">
+            <com.intermedia.view.CustomEditText android:gravity="center_vertical" android:id="@id/chat_edit_text" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:hint="@string/chat_placeholder" android:ems="10" android:selectAllOnFocus="false" android:maxLength="70" android:imeOptions="actionSend" />
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton android:id="@id/chat_fab" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginBottom="@dimen/grid_4" android:src="@drawable/chat_bubble" android:layout_marginEnd="@dimen/grid_2" app:fabSize="normal" app:layout_constraintBottom_toTopOf="@id/chat_input" app:layout_constraintRight_toRightOf="parent" app:layout_dodgeInsetEdges="bottom" />
+</android.support.constraint.ConstraintLayout>

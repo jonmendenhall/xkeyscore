@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">Пароль должен состоять из букв и цифр и содержать не меньше %1$d символа.</item>
+        <item quantity="one">Пароль должен состоять из букв и цифр и содержать не меньше %1$d символа.</item>
+        <item quantity="few">Пароль должен состоять из букв и цифр и содержать не меньше %1$d символов.</item>
+        <item quantity="many">Пароль должен состоять из букв и цифр и содержать не меньше %1$d символов.</item>
+    </plurals>
+</resources>

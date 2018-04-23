@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">Slaptažodis nepakankamai sudėtingas. Naudokite bent %1$d simbolių ir raidžių bei skaičių derinį.</item>
+        <item quantity="one">Slaptažodis nepakankamai sudėtingas. Naudokite bent %1$d simbolį ir raidžių bei skaičių derinį.</item>
+        <item quantity="few">Slaptažodis nepakankamai sudėtingas. Naudokite bent %1$d simbolius ir raidžių bei skaičių derinį.</item>
+        <item quantity="many">Slaptažodis nepakankamai sudėtingas. Naudokite bent %1$d simbolio ir raidžių bei skaičių derinį.</item>
+    </plurals>
+</resources>

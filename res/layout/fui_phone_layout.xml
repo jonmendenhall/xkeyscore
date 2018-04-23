@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:layout_height="wrap_content" style="@style/FirebaseUI.WrapperStyle">
+        <com.firebase.ui.auth.ui.phone.CountryListSpinner android:id="@id/country_list" app:layout_constraintBaseline_toBaselineOf="@id/phone_layout" app:layout_constraintStart_toStartOf="parent" style="@style/FirebaseUI.CountrySpinner" />
+        <com.firebase.ui.auth.util.ui.BaselineTextInputLayout android:id="@id/phone_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/country_list" app:layout_constraintTop_toTopOf="parent" style="@style/FirebaseUI.TextInputLayout.PhoneField">
+            <android.support.design.widget.TextInputEditText android:id="@id/phone_number" android:imeOptions="actionDone" style="@style/FirebaseUI.TextInputEditText.PhoneField" />
+        </com.firebase.ui.auth.util.ui.BaselineTextInputLayout>
+        <Button android:id="@id/send_code" android:layout_marginTop="@dimen/fui_field_padding_vert" android:text="@string/fui_verify_phone_number" app:layout_constraintTop_toBottomOf="@id/phone_layout" style="@style/FirebaseUI.VerifyPhoneButton" />
+        <TextView android:textColor="?android:textColorTertiary" android:id="@id/send_sms_tos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fui_field_padding_vert" android:textIsSelectable="false" app:layout_constraintTop_toBottomOf="@id/send_code" style="@style/FirebaseUI.Text.BodyText" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

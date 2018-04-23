@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">Лозинка није довољно јака. Употребите бар %1$d знакова, уз комбинацију бројева и слова</item>
+        <item quantity="one">Лозинка није довољно јака. Употребите бар %1$d знак, уз комбинацију бројева и слова</item>
+        <item quantity="few">Лозинка није довољно јака. Употребите бар %1$d знака, уз комбинацију бројева и слова</item>
+    </plurals>
+</resources>

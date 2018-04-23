@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">પાસવર્ડ પૂરતો સશક્ત નથી. ઓછામાં ઓછા %1$d અક્ષર અને વર્ણ તથા સંખ્યાઓના સંયોજનનો ઉપયોગ કરો</item>
+        <item quantity="one">પાસવર્ડ પૂરતો સશક્ત નથી. ઓછામાં ઓછા %1$d અક્ષર અને વર્ણ તથા સંખ્યાઓના સંયોજનનો ઉપયોગ કરો</item>
+    </plurals>
+</resources>
